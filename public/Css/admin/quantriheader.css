@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quantri-header{
+    width: 100%;
+    height: auto;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+/* quan trị header */
+.quantri-header1{
+    width: 100%;
+    height: 100px;
+    background-color: #CD1818;
+}
+.quantri-header1 > span{
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quantri-header-nav{
+    width: 100%;
+    height: 45px;
+    background-color: black;
+}
+.quantri-header-nav > ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin:0;
+    gap: 30px;
+}
+.quantri-header-nav > ul > li{
+    list-style: none;
+    height: 100%;
+    line-height: 45px;
+}
+.quantri-header-nav > ul > li >a:hover{
+    color: rgb(233, 196, 152);
+}
+.quantri-header-nav > ul > li > a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+.quantri-header-title{
+    width: 70%;
+    height: 40px;
+    background-color: #F7F7F9;
+    border: 0.5px solid #ccc;
+    border-radius: 10px;
+}
+.quantri-header-title > span{
+    color: #8b8787cc;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 20px;
+}
+
+/* hêt phần header */
+
+/* thông báo xác nhận thành công  */
+#thanhcong{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5px;
+    z-index: 999999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    visibility: hidden;
+    
+}
+#thanhcong i{
+    color: green;
+    font-size: 70px;
+    margin-top: 40px;
+}

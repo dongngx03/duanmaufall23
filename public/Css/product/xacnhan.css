@@ -1,0 +1,172 @@
+.xacnhan{
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F5;
+    margin-top: 107px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.xacnhan-title{
+    width: 90%;
+    height: 85px;
+    background-color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 1px 1px solid #E9E9E9;
+    border-radius: 10px;
+    
+}
+.xacnhan-title h2{
+    line-height: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
+/* xác nhận thông tin  */
+.xacnhan-thongtin{
+    width: 90%;
+    height: 400px;
+    background-color: #F5F5F5;
+    box-shadow: 1px 1px solid #E9E9E9;
+    display: flex;
+    gap: 10px;
+}
+.xacnhan-thongtin-sp,
+.xacnhan-thongtin-diatri{
+    width: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.xn-img img{
+   width: 50%;
+   height: auto; 
+   object-fit: contain;
+}
+.xn-img{
+   width:100%;
+   height: 50%;
+   display: flex;
+   justify-content: center;
+}
+.xn-product{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.xn-product-name{
+    font-size: 26px;
+    color: #797575;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.xn-product-price{
+    font-size: 20px;
+    color: #797575;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.xn-product-price-old{
+    font-size: 20px;
+    color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.xn-soluong{
+    display: flex;
+    justify-content: center;
+}
+#tang,
+#giam{
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border: 0.5px solid #cccc;
+    color: #797575;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+}
+#giam:hover{
+    background-color: var(--primary-color);
+}
+#tang:hover{
+    background-color: var(--primary-color);
+}
+#soluongmua{
+    width: 60px;
+    height: 35px;
+    background-color: #fff;
+    border: 0.5px solid #cccc;
+    color: #797575;
+}
+input[type='number']{
+    outline: none;
+    text-align: center;
+}
+
+/* thông tin địa trỉ  */
+.xacnhan-thongtin-diatri{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+.xacnhan-thongtin-diatri span{
+    font-size: 11px;
+    color: red;
+}
+.xacnhan-thongtin-diatri input[type="text"]{
+    text-align: center;
+    outline: none;
+    width: 60%;
+    height: 30px;
+    border: none;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+}
+.xacnhan-thongtin-diatri label{
+    font-size: 15px;
+    font-weight: bold;
+}
+.xacnhan-thongtin-diatri h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* xác nhạn mua hàng  */
+.xacnhan-muahang{
+    width: 90%;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.xacnhan-muahang button{
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    color: #ffff;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.xacnhan-muahang button:hover{
+    background-color: red;
+}
+
+
+

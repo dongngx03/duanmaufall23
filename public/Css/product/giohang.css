@@ -1,0 +1,163 @@
+.giohang{
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F5;
+    margin-top: 107px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.giohang-thongbao{
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.giohang-title{
+    width: 90%;
+    height: 54px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px #cccc;
+}
+.giohang-title table{
+    width: 100%;
+    height: 100%;
+}
+.giohang-title table tr th{
+   text-align: center;
+   vertical-align: middle;
+   
+}
+.giohang-title table tr th:nth-child(1) {
+   
+    width: 75px;
+    height: 100%;
+}
+.giohang-title table tr th:nth-child(2) {
+  
+    width: 315px;
+    height: 100%;
+}
+.giohang-title table tr th:nth-child(3) {
+   
+    width: 132px;
+    height: 100%;
+}
+.giohang-title table tr th:nth-child(4) {
+   
+    width: 140px;
+    height: 100%;
+}
+.giohang-title table tr th:nth-child(5) {
+  
+    width: 140px;
+    height: 100%;
+}
+.giohang-title table tr th:nth-child(6) {
+   
+    width: 140px;
+    height: 100%;
+}
+
+
+.giohang-sanpham{
+    width: 90%;
+    height: 180px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px #cccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.giohang-sanpham table {
+    width: 100%;
+    height: 100%;
+    border-spacing: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+.giohang-sanpham table tr td{
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #cccc;
+    font-weight: bold;
+   
+}
+
+.giohang-sanpham table tr td:nth-child(1) {
+    width: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.giohang-sanpham table tr td:nth-child(2) {
+    text-align: left;
+    width: 315px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
+}
+.giohang-sanpham table tr td:nth-child(2) img{
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+.giohang-sanpham table tr td:nth-child(3) {
+ 
+    width: 132px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.giohang-sanpham table tr td:nth-child(4) {
+    width: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.giohang-sanpham table tr td:nth-child(5) {
+    width: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
+}
+#giatien{
+    color: red;
+}
+
+.giohang-sanpham table tr td:nth-child(6) {
+    width: 140px;
+}
+
+/* 
+*/
+.gh-sp-name {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.gh-sp-sp{
+    border-bottom: 1px solid #cccc;
+}
+
+/*  */
+
+.giohang-chucnangkhac{
+    width: 90%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 1px 1px #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 100px;
+    border-radius: 10px;
+}
+.giohang-chucnangkhac button{
+    width: 150px;
+    height: auto;
+    margin-left: 30px;
+}
+

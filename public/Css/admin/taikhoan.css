@@ -1,0 +1,83 @@
+.quantri-taikhoan{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: auto;
+}
+.quantri-taikhoan > table{
+    width: 95%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.quantri-taikhoan1 {
+    height: 50px;
+    width: 70%;
+    background-color: #F7F7F9;
+   
+}
+.quantri-taikhoan1 > th {
+    border: 0.5px solid #ccc;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  th {
+    background-color: #fff;
+    color: black;
+  }
+  .quantri-chucnang{
+    display: flex;
+    gap: 10px;
+  }
+  .quantri-chucnangkhac{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .quantri-chucnangkhac1{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+  }
+  #pagination {
+    margin-top: 10px;
+    text-align: center;
+  }
+  #pagination > button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin-left: 4px;
+  }
+  #pagination > button:focus {
+    background-color: red;
+  }
+  .quantri-imguser{
+    width: 70px;
+    height: auto;
+    object-fit: contain;
+  }
+  
